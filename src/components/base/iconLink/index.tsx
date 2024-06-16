@@ -9,9 +9,9 @@ export function IconLink(props: IconLinkProps) {
   //   const [isActive, setIsActive] = useState(false);
 
   const activeLink =
-    "bg-white flex gap-3 text-center rounded-md text-slate-700 p-1 font-lato";
+    "bg-white flex gap-3 rounded-md text-slate-700 p-1 font-lato";
   const normalLink =
-    "flex gap-3 text-center active:bg-white active:rounded-md p-1 font-lato font-medium";
+    "flex gap-3 active:bg-white active:rounded-md p-1 font-lato font-medium";
 
   return (
     <>
