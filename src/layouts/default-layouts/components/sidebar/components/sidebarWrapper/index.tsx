@@ -12,7 +12,7 @@ import {
 
 export function SidebarWrapper() {
   return (
-    <nav className="flex flex-col h-screen p-3 gap-5 bg-fuchsia-950 text-gray-400 overflow-y-scroll no-scrollbar">
+    <nav className="flex flex-col p-3 gap-5 bg-fuchsia-950 text-gray-400 overflow-y-scroll sm:w-2/5 h-screen max-h-screen ">
       {/* <Head /> */}
       <SearchBar />
       <Home />
