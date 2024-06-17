@@ -14,7 +14,86 @@
   }
 }
 
+/* Style scrollbar round */
+
+@layer utilities {
+  .scrollbar-round::-webkit-scrollbar {
+    width: 7px;
+  }
+  .scrollbar-round::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 20px;
+  }
+  .scrollbar-round::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: transparent;
+    transition: 3s;
+  }
+  .scrollbar-round::-webkit-scrollbar-thumb:hover {
+    background-color: #898989;
+  }
+}
+
 @font-face {
   font-family: "Lato";
   src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+
+/* Global Scrollbar */
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: transparent;
+  transition: 3s;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #898989;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+* {
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    transition: all 1s ease;
+    transition-duration: 2s;
+    /* -webkit-transition: 10s; */
+  }
+}
+
+*:hover {
+  &::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    transition: all 1s ease;
+    -webkit-transition: 10s;
+  }
+}
+
+:root {
+  /* overflow: auto; */
+  /* scrollbar-width: none; */
+  box-sizing: border-box;
+  /* margin: 0; */
+}
+
+/* Hide scrollbar on mobile */
+@media only screen and (max-width: 648px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
 }
