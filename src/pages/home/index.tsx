@@ -1,7 +1,5 @@
+import { HomeWrapper } from "components/features";
+
 export function HomePage() {
-  return (
-    <>
-      <div>Ini home</div>
-    </>
-  );
+  return <HomeWrapper />;
 }
