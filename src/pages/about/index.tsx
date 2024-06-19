@@ -1,7 +1,5 @@
+import { AboutWrapper } from "components/features";
+
 export function AboutPage() {
-  return (
-    <>
-      <div>About</div>
-    </>
-  );
+  return <AboutWrapper />;
 }
