@@ -4,3 +4,6 @@ export * from "./iconLink";
 export * from "./divider";
 export * from "./card";
 export * from "./wrapper";
+export * from "./profileSnippet";
+export * from "./emoji";
+export * from "./sectionCard";
