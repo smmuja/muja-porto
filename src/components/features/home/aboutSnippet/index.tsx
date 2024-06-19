@@ -3,9 +3,6 @@ import { Divider } from "components/base";
 export function AboutSnippet() {
   return (
     <>
-      <span className="font-bold">
-        Build something beautiful that functions.
-      </span>
       <Divider />
       <p>
         Product and Digital Marketing enthusiast turning Aspiring Software
