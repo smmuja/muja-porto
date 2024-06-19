@@ -6,7 +6,10 @@ export function Card(props: CardProps) {
 
   return (
     <div
-      className={twMerge("border-2 rounded-sm p-4 bg-white", className)}
+      className={twMerge(
+        "border-2 rounded-sm p-4 mx-0 bg-transparent",
+        className
+      )}
       {...rest}
     >
       {children}

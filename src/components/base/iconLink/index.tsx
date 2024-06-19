@@ -9,21 +9,15 @@ export function IconLink(props: IconLinkProps) {
   //   const [isActive, setIsActive] = useState(false);
 
   const activeLink =
-    "bg-white flex gap-3 rounded-md text-slate-700 p-1 font-lato";
+    "bg-slate-200 flex gap-3 rounded-md text-slate-700 p-1 font-lato";
   const normalLink =
-    "flex gap-3 active:bg-white active:rounded-md p-1 font-lato font-medium";
+    "flex gap-3 active:bg-white rounded-md p-1 font-lato font-medium hover:bg-stone-50 hover:bg-opacity-25";
 
   return (
     <>
       <NavLink
         to={link}
-        // className={twJoin(
-        //   "flex gap-3 text-center active:bg-white active:rounded-md"
-        // )}
-
         className={({ isActive }) => (isActive ? activeLink : normalLink)}
-
-        // className={`flex gap-3 text-center` ${isActive ? "active:bg-white" : ""}}
       >
         {children}
         <p className="focus:bg-sky-500">{label}</p>
