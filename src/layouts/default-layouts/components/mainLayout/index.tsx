@@ -6,7 +6,7 @@ export function MainLayout() {
   return (
     <div className="flex">
       <SidebarWrapper />
-      <Card className="p-3 min-h-screen max-h-screen w-full">
+      <Card className="border-0 p-3 px-0 mx-0 min-h-screen max-h-screen w-full">
         <HeaderWrapper />
         <Outlet />
       </Card>

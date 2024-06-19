@@ -42,6 +42,7 @@
 * {
   box-sizing: border-box;
   font-family: Lato;
+  font-weight: lighter;
 }
 
 /* Global Scrollbar */
@@ -96,4 +97,19 @@
   ::-webkit-scrollbar-thumb {
     display: none;
   }
+}
+
+/* Typography */
+
+/* List style */
+
+ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  list-style-image: url(assets/);
+}
+
+b {
+  color: #3d3d3d;
+  font-weight: bold;
 }

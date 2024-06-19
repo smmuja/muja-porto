@@ -13,7 +13,7 @@ export function Divider(props: DividerProps) {
   return (
     <div
       className={twMerge(
-        "flex content-center items-center my-3 py-3",
+        "flex content-center items-center my-3 py-3 mx-0",
         dividerClassName
       )}
     >
@@ -27,7 +27,7 @@ export function Divider(props: DividerProps) {
         <Button
           onClick={onClick}
           className={twMerge(
-            "flex  gap-3 border rounded-2xl px-3 size-fit font-lato font-medium",
+            "flex  gap-3 border rounded-2xl px-3 size-fit font-lato text-sm font-semibold",
             buttonClassName
           )}
         >
@@ -35,7 +35,10 @@ export function Divider(props: DividerProps) {
         </Button>
       )}
 
-      <hr className="flex-1 border-none h-px bg-slate-200" />
+      <hr
+        className="flex-1 border-none h-px
+      bg-slate-200"
+      />
     </div>
   );
 }
