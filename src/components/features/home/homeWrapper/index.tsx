@@ -1,8 +1,8 @@
-import { Wrapper } from "components/base";
+import { Emoji, Wrapper, ProfileSnippet } from "components/base";
 import {
   AboutSnippet,
   ButtonViewAbout,
-  ProfileSnippet,
+  // ProfileSnippet,
 } from "components/features";
 
 export function HomeWrapper() {
@@ -10,6 +10,7 @@ export function HomeWrapper() {
     <Wrapper>
       <ProfileSnippet />
       <AboutSnippet />
+      <Emoji />
       <ButtonViewAbout />
     </Wrapper>
   );
