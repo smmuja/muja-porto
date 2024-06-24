@@ -4,10 +4,11 @@ import { SectionCardProps } from "./type";
 export function SectionCard(props: SectionCardProps) {
   const { children, imgUrl, title, ...rest } = props;
 
-  const imgSrc = imgUrl.length > 0 ? imgUrl : userImg;
+  const imgSrc = imgUrl?.length > 0 ? imgUrl : userImg;
 
-  const sectionTitle =
-    title?.length > 0 ? title : "Muja - Software Engineer (Front End)";
+  const sectionTitle = title?.length > 0 ? title : "Muja ";
+
+  // "Muja - Software Engineer (Front End)"
 
   return (
     <>
