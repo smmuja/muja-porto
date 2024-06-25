@@ -7,7 +7,7 @@ export function Wrapper(props: WrapperProps) {
   return (
     <Card
       className={twMerge(
-        "border-0 mb-0 mx-0 py-5 overflow-y-scroll h-5/6",
+        "border-0 mb-0 mx-0  p-0 py-5 overflow-y-scroll h-5/6",
         className
       )}
     >

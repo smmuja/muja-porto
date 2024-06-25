@@ -1,7 +1,14 @@
+import { twMerge } from "tailwind-merge";
 import { IconProps } from "./type";
 
 export function Icon(props: IconProps) {
-  const { imgSrc } = props;
+  const { imgSrc, className } = props;
 
-  return <img src={imgSrc} alt="" className="w-7 m-1 inline-block" />;
+  return (
+    <img
+      src={imgSrc}
+      alt=""
+      className={twMerge("w-7 m-1 inline-block", className)}
+    />
+  );
 }
