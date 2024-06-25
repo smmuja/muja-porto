@@ -7,3 +7,5 @@ export * from "./wrapper";
 export * from "./profileSnippet";
 export * from "./emoji";
 export * from "./sectionCard";
+export * from "./modal";
+export * from "./imageModal";
