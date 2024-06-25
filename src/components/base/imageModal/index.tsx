@@ -14,7 +14,7 @@ export function ImageModal(props: sectionModal) {
         <img
           src={imgSrc}
           alt=""
-          className="w-44 border border-slate-500 rounded-md cursor-zoom-in"
+          className="w-44 border border-opacity-25 border-slate-500 rounded-md cursor-zoom-in"
         />
         {children}
       </div>
