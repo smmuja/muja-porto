@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutPage, HomePage, Error404, WorkPage } from "pages";
+import { AboutPage, HomePage, Error404, WorkPage, SkillPage } from "pages";
 import { MainLayout } from "layouts/default-layouts";
-import { aboutUrl, educationUrl, homeUrl, workUrl } from "config";
+import { aboutUrl, educationUrl, homeUrl, skillUrl, workUrl } from "config";
 import { EducationPage } from "pages/education";
 
 export const routes = createBrowserRouter([
@@ -23,6 +23,10 @@ export const routes = createBrowserRouter([
       {
         path: workUrl,
         Component: WorkPage,
+      },
+      {
+        path: skillUrl,
+        Component: SkillPage,
       },
       {
         path: "*",
