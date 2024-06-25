@@ -1,9 +1,8 @@
-import { Divider, SectionCard } from "components";
+import { SectionCard } from "components";
 
 export function UNSEdu() {
   return (
     <>
-      <Divider children="2021" />
       <SectionCard title={""} imgUrl={""}>
         <>
           <h3>

@@ -1,4 +1,5 @@
 import {
+  Divider,
   SkillFramework,
   SkillMiscellaneous,
   SkillProgrammming,
@@ -9,7 +10,8 @@ import {
 
 export function SkillWrapper() {
   return (
-    <Wrapper className="">
+    <Wrapper>
+      <Divider children={"Skills and Tools"} />
       <SkillProgrammming />
       <SkillFramework />
       <SkillTool />
