@@ -1,11 +1,10 @@
-import { Divider, Emoji, ImageModal, SectionCard } from "components";
+import { Emoji, ImageModal, SectionCard } from "components";
 
 import catImg from "assets/img/catCode.png";
 
 export function RevoU() {
   return (
     <>
-      <Divider children="2023" />
       <SectionCard title={""} imgUrl={""}>
         <>
           <h3>
