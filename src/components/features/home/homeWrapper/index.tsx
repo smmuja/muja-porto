@@ -7,7 +7,7 @@ import {
 
 export function HomeWrapper() {
   return (
-    <Wrapper>
+    <Wrapper className="m-5 p-5">
       <ProfileSnippet />
       <AboutSnippet />
       <Emoji />
