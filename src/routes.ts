@@ -1,16 +1,24 @@
 import { createBrowserRouter } from "react-router-dom";
-import { AboutPage, HomePage, Error404, WorkPage, SkillPage } from "pages";
+import {
+  AboutPage,
+  HomePage,
+  Error404,
+  WorkPage,
+  SkillPage,
+  EducationPage,
+  ContactPage,
+  ProjectPage,
+} from "pages";
 import { MainLayout } from "layouts/default-layouts";
 import {
   aboutUrl,
   contactUrl,
   educationUrl,
   homeUrl,
+  projectUrl,
   skillUrl,
   workUrl,
 } from "config";
-import { EducationPage } from "pages/education";
-import { ContactPage } from "pages/contact";
 
 export const routes = createBrowserRouter([
   {
@@ -39,6 +47,10 @@ export const routes = createBrowserRouter([
       {
         path: contactUrl,
         Component: ContactPage,
+      },
+      {
+        path: projectUrl,
+        Component: ProjectPage,
       },
       {
         path: "*",
