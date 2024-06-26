@@ -5,5 +5,5 @@
 
 [[redirects]]
 from="/*"
-to="/index.html"
+to=git "/index.html"
 status=200
