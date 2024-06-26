@@ -1,9 +1,5 @@
 [build]
   base = "/"
   publish = "/"
-  command = ""
+  command = "build"
 
-[[redirects]]
-from="/*"
-to=git "/index.html"
-status=200
