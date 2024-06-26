@@ -6,13 +6,17 @@ import catImgUrl from "assets/img/catCode.png";
 export function AboutText() {
   return (
     <>
+      <SectionCard title={""} imgUrl={catImgUrl}>
+        <div>
+          🌟🌟 Aspiring <b>Software Engineer</b> with background in{" "}
+          <b>Product and Digital Marketing 🌟🌟</b>
+        </div>
+      </SectionCard>
       <SectionCard imgUrl={""} title={""}>
         <div>
           👀 Having more than one year of experience in the digital products and
           customer interaction in <b>web hosting</b> industry.
         </div>
-
-        <Emoji />
       </SectionCard>
       <SectionCard imgUrl={catImgUrl} title={""}>
         <div>
@@ -20,8 +24,6 @@ export function AboutText() {
           research, website content planning, and ads targeting. Familiar with
           SEO tools and Social Media Ads dashboard.
         </div>
-
-        <Emoji />
       </SectionCard>
       <SectionCard title={""} imgUrl={""}>
         🎓 Recently graduated from
@@ -40,6 +42,7 @@ export function AboutText() {
         🎯 I am particularly interested in the <b> Front-end</b> development
         tobridge between business goals and customers' needs and am eager to
         contribute to this field.
+        <Emoji />
       </SectionCard>
     </>
   );
