@@ -3,3 +3,4 @@ export * from "./about";
 export * from "./education";
 export * from "./work";
 export * from "./skill";
+export * from "./contact";
