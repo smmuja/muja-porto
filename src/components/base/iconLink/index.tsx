@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 // import { useState } from "react";
 
 export function IconLink(props: IconLinkProps) {
-  const { link, label, children } = props;
+  const { link, label, icon } = props;
 
   //   const [isActive, setIsActive] = useState(false);
 
@@ -19,7 +19,7 @@ export function IconLink(props: IconLinkProps) {
         to={link}
         className={({ isActive }) => (isActive ? activeLink : normalLink)}
       >
-        {children}
+        {icon}
         <p className="focus:bg-sky-500 hidden sm:block sm:text-base">{label}</p>
       </NavLink>
     </>
