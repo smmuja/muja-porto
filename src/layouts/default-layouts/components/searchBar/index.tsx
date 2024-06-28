@@ -47,13 +47,13 @@ export function SearchBar() {
   };
 
   return (
-    <div className="my-3 bg-white border-0 rounded-md">
+    <div className="my-1 bg-stone-50 opacity-25m border-0 rounded-md sticky w-full sm:w-1/2 ">
       <div>
         <Input
           type="search"
           placeholder="Search section ..."
           value={query}
-          inputClassName="text-black px-2"
+          inputClassName="text-black px-2 rounded-t-md"
           rightNode={search ? <IconSearch /> : <IconSearch />}
           rightNodeClick={searchHandler}
           onChange={(e) => handleChange(e.target.value)}
@@ -61,7 +61,7 @@ export function SearchBar() {
       </div>
 
       {result && result.length > 0 && (
-        <div className="mt- bg-transparent">
+        <div className="bg-white border border-slate-300 absolute z-10 w-full rounded-b-md">
           <ul
             onClick={handleClearResult}
             className="px-3 list-none bg-white rounded-md gap-3 "
@@ -70,7 +70,7 @@ export function SearchBar() {
               .filter((item) => item.title.toLowerCase().includes(query))
               .map((item) => (
                 <li key={item.title}>
-                  <div className="flex gap-1 my-3 hover:bg-slate-300 rounded-md mx-0">
+                  <div className="flex bg-white gap-1 my-3 hover:bg-slate-300 rounded-md mx-0 ">
                     {<item.icon />}
                     <Link to={item.path}>{item.title}</Link>
                   </div>
