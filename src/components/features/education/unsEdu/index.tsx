@@ -17,6 +17,7 @@ export function UNSEdu() {
           <a
             className="text-blue-700 "
             href="https://digilib.uns.ac.id/dokumen/abstrak/85452/A-Translation-Analysis-of-Technical-Terms-in-Googles-Search-Engine-Optimization-Starter-Guide"
+            target="_blank"
           >
             A Translation Analysis of Technical Terms in Google's Search Engine
             Optimization Starter Guide (Abstract)
