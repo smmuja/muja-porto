@@ -20,7 +20,7 @@ export function ImageModal(props: sectionModal) {
       </div>
       {isModalOpen && (
         <Modal onClose={() => setModalOpen(false)} isOpen={true}>
-          <img src={imgSrc} alt="" />
+          <img src={imgSrc} alt="" className="w-full sm:w-6/12" />
           {children}
         </Modal>
       )}
