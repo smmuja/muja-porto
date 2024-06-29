@@ -1,4 +1,4 @@
-import { Divider, Icon, ImageModal, SectionCard } from "components";
+import { Icon, ImageModal, SectionCard } from "components";
 
 import catImg from "assets/img/catCode.png";
 
@@ -8,7 +8,6 @@ import linkeinImg from "assets/icon/linkedin.png";
 export function ContactDetail() {
   return (
     <>
-      <Divider children={"Contact Details"} />
       <SectionCard title={""} imgUrl={""}>
         <p>
           <b>Thank you</b> for reaching until this far
