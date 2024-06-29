@@ -1,6 +1,7 @@
 import { Card } from "components";
 import { HeaderWrapper, SidebarWrapper } from "layouts/default-layouts";
 import { Outlet } from "react-router-dom";
+import { BottomNav } from "../components/bottomNav";
 
 export function MainLayout() {
   return (
@@ -12,6 +13,7 @@ export function MainLayout() {
           <Outlet />
         </Card>
       </div>
+      <BottomNav />
     </div>
   );
 }
