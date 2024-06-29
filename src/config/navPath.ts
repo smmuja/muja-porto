@@ -1,6 +1,6 @@
 import {
-  IconDeviceLaptop,
-  IconFocus2,
+  IconAirBalloon,
+  IconDeviceDesktop,
   IconHome,
   IconMail,
   IconReport,
@@ -38,12 +38,12 @@ export const navPath = [
   {
     title: "Working Experiences",
     path: workUrl,
-    icon: IconDeviceLaptop,
+    icon: IconDeviceDesktop,
   },
   {
     title: "Project Experiences",
     path: projectUrl,
-    icon: IconFocus2,
+    icon: IconAirBalloon,
   },
   {
     title: "Skills and Tools",

@@ -39,6 +39,13 @@
   src: url("./assets/fonts/Lato-Regular.ttf");
 }
 
+:root {
+  overflow: hidden;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  /* margin: 0; */
+}
+
 * {
   box-sizing: border-box;
   font-family: Lato;
@@ -81,13 +88,6 @@
     transition: all 1s ease;
     -webkit-transition: 10s;
   }
-}
-
-:root {
-  overflow: hidden;
-  scrollbar-width: none;
-  box-sizing: border-box;
-  /* margin: 0; */
 }
 
 /* Hide scrollbar on mobile */
