@@ -1,5 +1,4 @@
 import {
-  Divider,
   SkillFramework,
   SkillMiscellaneous,
   SkillProgrammming,
@@ -7,16 +6,19 @@ import {
   SoftSkill,
   Wrapper,
 } from "components";
+import { SectionTitle } from "layouts";
 
 export function SkillWrapper() {
   return (
-    <Wrapper>
-      <Divider children={"Skills and Tools"} />
-      <SkillProgrammming />
-      <SkillFramework />
-      <SkillTool />
-      <SkillMiscellaneous />
-      <SoftSkill />
-    </Wrapper>
+    <>
+      <SectionTitle title={"# Skills and Tools"} />
+      <Wrapper>
+        <SkillProgrammming />
+        <SkillFramework />
+        <SkillTool />
+        <SkillMiscellaneous />
+        <SoftSkill />
+      </Wrapper>
+    </>
   );
 }
