@@ -20,7 +20,7 @@ export function IconLink(props: IconLinkProps) {
         className={({ isActive }) => (isActive ? activeLink : normalLink)}
       >
         {icon}
-        <p className="focus:bg-sky-500 hidden sm:block sm:text-base">{label}</p>
+        <p className="focus:bg-sky-500 sm:block sm:text-base">{label}</p>
       </NavLink>
     </>
   );

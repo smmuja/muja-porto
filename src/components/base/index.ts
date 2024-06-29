@@ -11,3 +11,4 @@ export * from "./modal";
 export * from "./imageModal";
 export * from "./icon";
 export * from "./navArrow";
+export * from "./hamburger";
