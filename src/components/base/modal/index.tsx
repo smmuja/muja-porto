@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { ModalProps } from "./type";
+import { twMerge } from "tailwind-merge";
 
 export function Modal(props: ModalProps) {
-  const { isOpen, onClose, children } = props;
+  const { isOpen, onClose, children, className } = props;
 
   const [isModalOpen, setModalOpen] = useState(isOpen);
   const modalRef = useRef<HTMLDialogElement | null>(null);
@@ -29,7 +30,10 @@ export function Modal(props: ModalProps) {
         onClick={onClose}
       >
         <div
-          className="flex flex-col bg-white p-5 rounded-md relative w-10/12 h-3/4 max-w-full cursor-zoom-out items-center justify-center box-border m-10 my-10"
+          className={twMerge(
+            "flex flex-col bg-white p-5 rounded-md relative w-10/12 h-3/4 max-w-full cursor-zoom-out items-center justify-center box-border m-10 my-10",
+            className
+          )}
           onClick={onClose}
         >
           {children}

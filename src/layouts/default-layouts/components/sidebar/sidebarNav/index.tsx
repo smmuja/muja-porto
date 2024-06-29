@@ -4,7 +4,7 @@ import { IconLink } from "components";
 export function SidebarNav() {
   return (
     <>
-      <nav className="flex  flex-row sm:flex-col py-3 gap-5 ">
+      <nav className="flex flex-row sm:flex-col py-3 gap-5 ">
         {navPath.map((item) => {
           return (
             <>
