@@ -4,7 +4,7 @@ import { PortfolioTitle, SearchBar } from "layouts/default-layouts";
 export function HeaderWrapper() {
   return (
     <Card className=" z-10 top-0  m-0 p-0 border-0  bg-fuchsia-950 flex flex-col">
-      <Card className="z-10 flex flex-row border-0 justify-between content-between">
+      <Card className="sm:hidden z-10 flex flex-row border-0 justify-between content-between">
         <PortfolioTitle className="sm:hidden" />
         <Hamburger />
       </Card>
