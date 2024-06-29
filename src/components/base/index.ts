@@ -10,3 +10,4 @@ export * from "./sectionCard";
 export * from "./modal";
 export * from "./imageModal";
 export * from "./icon";
+export * from "./navArrow";
