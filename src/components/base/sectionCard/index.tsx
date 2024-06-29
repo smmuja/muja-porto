@@ -13,8 +13,8 @@ export function SectionCard(props: SectionCardProps) {
   return (
     <>
       <div
-        className="flex border-0 mx-0 my-3
-      px-5 py-2 hover:bg-stone-50"
+        className="flex border-0 mx-0 my-0
+      px-5 py-3 hover:bg-stone-50"
       >
         <>
           <img

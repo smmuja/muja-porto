@@ -1,4 +1,4 @@
-import { Divider, Icon, ImageModal, SectionCard } from "components";
+import { Icon, ImageModal, SectionCard } from "components";
 
 import niagahosterImg from "assets/logo/niagahoster.png";
 import hostingerImg from "assets/logo/hostinger.png";
@@ -7,7 +7,6 @@ import catImg from "assets/img/catCode.png";
 export function Niagahoster() {
   return (
     <>
-      <Divider children={"Working Experience"} />
       <SectionCard title={""} imgUrl={""}>
         <Icon imgSrc={niagahosterImg} />
         <Icon imgSrc={hostingerImg} />
