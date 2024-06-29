@@ -1,10 +1,13 @@
-import { AboutText, Divider, Wrapper } from "components";
+import { AboutText, Wrapper } from "components";
+import { SectionTitle } from "layouts";
 
 export function AboutWrapper() {
   return (
-    <Wrapper className="border-0 m-0 px-0">
-      <Divider children={"About"} />
-      <AboutText />
-    </Wrapper>
+    <>
+      <SectionTitle title={"# About"} />
+      <Wrapper className="border-0 m-0 px-0">
+        <AboutText />
+      </Wrapper>
+    </>
   );
 }
