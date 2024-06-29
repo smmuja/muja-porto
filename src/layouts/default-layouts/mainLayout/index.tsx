@@ -5,11 +5,11 @@ import { BottomNav } from "../components/bottomNav";
 
 export function MainLayout() {
   return (
-    <div className="flex flex-col border-0">
+    <div className="flex flex-col border-0 ">
       <HeaderWrapper />
       <div className="flex border-0">
         <SidebarWrapper />
-        <Card className="border-0 p-3 px-0 mx-0 mt-0 min-h-screen max-h-screen w-full">
+        <Card className="border-0 p-3 px-0 mx-0 mt-0  min-h-screen max-h-screen w-full">
           <Outlet />
         </Card>
       </div>
