@@ -1,10 +1,13 @@
-import { SectionCard } from "components";
+import { Icon, SectionCard } from "components";
+
+import unsImg from "assets/logo/uns.png";
 
 export function UNSEdu() {
   return (
     <>
       <SectionCard title={""} imgUrl={""}>
         <>
+          <Icon imgSrc={unsImg} />
           <h3>
             <b>Universitas Sebelas Maret</b>
           </h3>

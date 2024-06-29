@@ -1,4 +1,6 @@
-import { Emoji, ImageModal, SectionCard } from "components";
+import { Emoji, Icon, ImageModal, SectionCard } from "components";
+
+import revouImg from "assets/logo/revou.png";
 
 import catImg from "assets/img/catCode.png";
 
@@ -7,6 +9,7 @@ export function RevoU() {
     <>
       <SectionCard title={""} imgUrl={""}>
         <>
+          <Icon imgSrc={revouImg} />
           <h3>
             <b>RevoU</b>
           </h3>
