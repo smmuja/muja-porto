@@ -1,5 +1,13 @@
 # Muja Portfolio
 
+## V2
+
+- Desktop  
+  ![desktop](/src/assets/doc/v2-desktop.png)
+
+- Mobile  
+  ![mobile](/src/assets/doc/v2-mobile.png)
+
 ## V1
 
 - Desktop  
