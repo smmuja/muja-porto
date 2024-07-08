@@ -2,14 +2,14 @@ import { createBrowserRouter } from "react-router-dom";
 import {
   AboutPage,
   HomePage,
+  Error404,
   WorkPage,
   SkillPage,
   EducationPage,
   ContactPage,
   ProjectPage,
-  Error404Page,
 } from "pages";
-import { MainLayout, RightSideBarLayout } from "layouts/default-layouts";
+import { MainLayout } from "layouts/default-layouts";
 import {
   aboutUrl,
   contactUrl,
@@ -28,11 +28,6 @@ export const routes = createBrowserRouter([
         path: homeUrl,
         Component: HomePage,
       },
-    ],
-  },
-  {
-    Component: RightSideBarLayout,
-    children: [
       {
         path: aboutUrl,
         Component: AboutPage,
@@ -59,7 +54,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: "*",
-        Component: Error404Page,
+        Component: Error404,
       },
     ],
   },
