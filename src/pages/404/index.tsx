@@ -1,5 +1,8 @@
-import { Error404 } from "components";
-
-export function Error404Page() {
-  return <Error404 />;
+export function Error404() {
+  return (
+    <div className="p-3">
+      <p>Oops ... </p>
+      <p>Nothing here</p>
+    </div>
+  );
 }
