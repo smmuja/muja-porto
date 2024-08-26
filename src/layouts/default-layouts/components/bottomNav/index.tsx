@@ -7,7 +7,7 @@ export function BottomNav() {
       {navPath.map((item) => {
         return (
           <>
-            <IconLink link={item.path} icon={<item.icon />} />
+            <IconLink key={item.title} link={item.path} icon={<item.icon />} />
           </>
         );
       })}

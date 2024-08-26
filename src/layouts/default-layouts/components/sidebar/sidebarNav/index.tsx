@@ -9,6 +9,7 @@ export function SidebarNav() {
           return (
             <>
               <IconLink
+                key={item.title}
                 link={item.path}
                 label={item.title}
                 icon={<item.icon />}
