@@ -9,7 +9,7 @@ import {
   ProjectPage,
   Error404Page,
 } from "pages";
-import { MainLayout, RightSideBarLayout } from "layouts/default-layouts";
+import { MainLayout, RightSidebarLayout } from "layouts/default-layouts";
 import {
   aboutUrl,
   contactUrl,
@@ -31,7 +31,7 @@ export const routes = createBrowserRouter([
     ],
   },
   {
-    Component: RightSideBarLayout,
+    Component: RightSidebarLayout,
     children: [
       {
         path: aboutUrl,
