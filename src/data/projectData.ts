@@ -64,7 +64,7 @@ export const projectData = [
       "Web blog targetting young adults providing motivations about life after college",
     project_techstack: "Blogger, HTML, plain CSS",
     project_website_name: "www.deardeadliner.com",
-    project_linkdeploy: "",
+    project_linkdeploy: "https://www.deardeadliner.com/",
     project_github_sourcecode: "",
     project_image_url: "/img/projects/deardeadliner.png",
   },
