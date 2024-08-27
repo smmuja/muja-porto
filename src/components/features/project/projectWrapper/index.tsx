@@ -1,4 +1,5 @@
-import { DearDeadliner, Divider, Inovhub, NewsApp, Wrapper } from "components";
+import { Wrapper } from "components/base";
+import { Projects } from "components/features/project";
 import { SectionTitle } from "layouts";
 
 export function ProjectWrapper() {
@@ -6,11 +7,7 @@ export function ProjectWrapper() {
     <>
       <SectionTitle title={"# Project Experiences"} />
       <Wrapper>
-        <Inovhub />
-        <Divider />
-        <NewsApp />
-        <Divider />
-        <DearDeadliner />
+        <Projects />
       </Wrapper>
     </>
   );
