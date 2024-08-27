@@ -14,13 +14,13 @@ export function PortfolioTitle(props: PortfolioTitleProps) {
     <Link to={homeUrl}>
       <Card
         className={twMerge(
-          "border-0 m-0 p-0 flex bg-fuchsia-950 items-center",
+          "border-0 m-0 p-1 flex bg-fuchsia-950 items-center",
           className
         )}
       >
         <img src={appleImg} alt="" className="w-12 sm:hidden" />
 
-        <h2 className="font-extrabold text-2xl text-stone-200 bg-fuchsia-950">
+        <h2 className="font-extrabold text-xl sm:text-2xl text-stone-200 bg-fuchsia-950">
           Muja Portfolio
         </h2>
       </Card>
