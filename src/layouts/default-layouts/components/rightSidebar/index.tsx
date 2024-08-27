@@ -1,7 +1,7 @@
 import {
-  AboutSnippet,
+  ProjectSnippet,
   Button,
-  ButtonViewAbout,
+  ButtonViewProject,
   Card,
   Emoji,
   ProfileSnippet,
@@ -32,9 +32,9 @@ export function RightSidebar() {
 
           <Card className="m-5 p- border-0">
             <ProfileSnippet />
-            <AboutSnippet />
+            <ProjectSnippet />
             <Emoji />
-            <ButtonViewAbout />
+            <ButtonViewProject />
           </Card>
         </Card>
       )}

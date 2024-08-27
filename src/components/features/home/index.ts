@@ -1,3 +1,3 @@
 export * from "./homeWrapper";
-export * from "./aboutSnippet";
-export * from "./buttonViewAbout";
+export * from "./projectSnippet";
+export * from "./buttonViewProject";
