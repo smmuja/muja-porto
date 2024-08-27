@@ -19,7 +19,7 @@ import sqlImg from "assets/icon/sql.png";
 import typescriptImg from "assets/icon/typescript.png";
 import wordpressImg from "assets/icon/wordpress.png";
 
-export function AboutSnippet() {
+export function ProjectSnippet() {
   return (
     <Card className="flex border-none m-0 p-0">
       <Divider />
@@ -54,7 +54,7 @@ export function AboutSnippet() {
           to this field.
         </p>
         <br />
-        <p>View my About section to learn more 🌟 🌟</p>
+        <p>View my Project section to learn more 🌟 🌟</p>
       </div>
     </Card>
   );
