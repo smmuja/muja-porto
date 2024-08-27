@@ -27,7 +27,11 @@ export function SearchBar() {
   };
 
   const results: any[] = navPath.filter((item) => {
-    return item && item.title && item.title.toLowerCase().includes(query);
+    return (
+      item &&
+      item.title &&
+      item.title.toLowerCase().includes(query.toLowerCase())
+    );
   });
 
   console.log(results);
@@ -67,7 +71,9 @@ export function SearchBar() {
             className="px-3 list-none bg-white rounded-md gap-3 "
           >
             {navPath
-              .filter((item) => item.title.toLowerCase().includes(query))
+              .filter((item) =>
+                item.title.toLowerCase().includes(query.toLowerCase())
+              )
               .map((item) => (
                 <li key={item.title}>
                   <div className="flex bg-white gap-1 my-3 hover:bg-slate-300 rounded-md mx-0 ">
