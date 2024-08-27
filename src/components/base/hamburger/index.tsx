@@ -21,7 +21,7 @@ export function Hamburger() {
           isOpen={true}
           className="top-0 right-0 m-0 p-0 py-7 w-full sm:w-1/2 h-fit bg-fuchsia-950 justify-start absolute"
         >
-          <nav className=" flex flex-col justify-start m-0 p-3 gap-5 bg-fuchsia-950 w-full relative ">
+          <nav className=" flex flex-col justify-start m-0 p-3 gap-5 bg-fuchsia-950 text-gray-400 w-full relative ">
             {navPath.map((item) => {
               return (
                 <>
