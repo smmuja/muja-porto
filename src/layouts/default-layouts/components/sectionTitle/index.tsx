@@ -15,7 +15,7 @@ export function SectionTitle(props: SectionTitleProp) {
     <>
       <Card
         className={twMerge(
-          "flex gap-3 items-center mx-0 m-0 px-3 py-0 border-0 w-full h-7",
+          "flex gap-3 items-center mx-0 m-0 px-3 py-0 border-0 w-full h-7 ",
           className
         )}
       >
