@@ -13,7 +13,7 @@ export function AboutWrapper() {
   return (
     <>
       <SectionTitle title={"# About"} />
-      <Wrapper className="border-0 m-0 px-0">
+      <Wrapper>
         <AboutSE />
         <AboutCS />
         <AboutSEO />

@@ -6,7 +6,7 @@ export function EducationWrapper() {
   return (
     <>
       <SectionTitle title={"# Education"} />
-      <Wrapper className="p-0 border-0 mb-0 mx-0">
+      <Wrapper>
         <UNSEdu />
         <RevoU />
       </Wrapper>
