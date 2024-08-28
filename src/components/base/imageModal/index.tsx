@@ -33,7 +33,7 @@ export function ImageModal(props: sectionModal) {
     <>
       <div
         onClick={() => handleAccordion(modalId || 1)}
-        className="flex gap-2 items-center pb-1 mt-1 text-slate-600 hover:cursor-pointer hover:text-slate-400 "
+        className="flex gap-2 items-center pb-1 mt-1 text-slate-600 hover:cursor-pointer hover:text-slate-500 "
       >
         {/* If image file name is too long, return image.png by default  */}
         <p className="text-sm">
