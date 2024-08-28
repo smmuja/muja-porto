@@ -1,2 +1,2 @@
 export * from "./workWrapper";
-export * from "./niagahoster";
+export * from "./works";
