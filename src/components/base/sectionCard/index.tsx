@@ -9,28 +9,26 @@ export function SectionCard(props: SectionCardProps) {
 
   return (
     <>
-      <div className="flex">
-        <div
-          className="flex border-0 mx-0 my-0
+      <div
+        className="flex border-0 mx-0 my-0
       px-5 py-3 hover:bg-stone-50"
-        >
-          <>
-            <img
-              onClick={handleOpenRightSidebar}
-              src={imgUrl ? imgUrl : userImg}
-              alt="profile pic"
-              className="size-10 rounded-md float-left mr-3 hover:cursor-pointer"
-            />
-          </>
-          <div>
-            <h3
-              onClick={handleOpenRightSidebar}
-              className="font-semibold text-base mb-1 hover:cursor-pointer hover:underline"
-            >
-              {title ? title : "Muja"}
-            </h3>
-            <div {...rest}>{children}</div>
-          </div>
+      >
+        <>
+          <img
+            onClick={handleOpenRightSidebar}
+            src={imgUrl ? imgUrl : userImg}
+            alt="profile pic"
+            className="size-10 rounded-md float-left mr-3 hover:cursor-pointer"
+          />
+        </>
+        <div>
+          <h3
+            onClick={handleOpenRightSidebar}
+            className="font-semibold text-base mb-1 hover:cursor-pointer hover:underline"
+          >
+            {title ? title : "Muja"}
+          </h3>
+          <div {...rest}>{children}</div>
         </div>
       </div>
     </>
