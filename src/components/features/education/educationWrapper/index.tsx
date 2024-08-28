@@ -1,14 +1,13 @@
-import { RevoU, Wrapper } from "components";
-import { UNSEdu } from "components/features";
-import { SectionTitle } from "layouts";
+import { Wrapper } from "components/base";
+import { Educations } from "components/features/education";
+import { SectionTitle } from "layouts/default-layouts/components";
 
 export function EducationWrapper() {
   return (
     <>
       <SectionTitle title={"# Education"} />
       <Wrapper>
-        <UNSEdu />
-        <RevoU />
+        <Educations />
       </Wrapper>
     </>
   );
