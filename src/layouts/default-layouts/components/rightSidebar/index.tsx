@@ -1,14 +1,8 @@
-import {
-  ProjectSnippet,
-  Button,
-  ButtonViewProject,
-  Card,
-  Emoji,
-  ProfileSnippet,
-} from "components";
+import { Button, Card, Emoji, ProfileSnippet, Wrapper } from "components/base";
 
-import userImg from "assets/img/user.png";
+import userImg from "/img/user.png";
 import { useOpenRightSidebarContext } from "providers/OpenRightSidebarContext";
+import { AboutMeSummary, ButtonViewProject } from "components/features/home";
 
 export function RightSidebar() {
   const { handleCloseRightSidebar, isRightSidebarOpen } =
@@ -30,12 +24,12 @@ export function RightSidebar() {
             </Button>
           </div>
 
-          <Card className="m-5 p- border-0">
+          <Wrapper className="m-5 p-10 border-0">
             <ProfileSnippet />
-            <ProjectSnippet />
+            <AboutMeSummary />
             <Emoji />
             <ButtonViewProject />
-          </Card>
+          </Wrapper>
         </Card>
       )}
     </>

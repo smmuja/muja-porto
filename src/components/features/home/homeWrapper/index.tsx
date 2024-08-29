@@ -1,6 +1,6 @@
 import { Emoji, Wrapper, ProfileSnippet, Card } from "components/base";
-import { ProjectSnippet, ButtonViewProject } from "components/features";
-import { SectionTitle } from "layouts";
+import { AboutMeSummary, ButtonViewProject } from "components/features/home";
+import { SectionTitle } from "layouts/default-layouts/components";
 import userImg from "assets/img/user.png";
 
 export function HomeWrapper() {
@@ -10,7 +10,7 @@ export function HomeWrapper() {
       <Wrapper>
         <Card className="mx-5 px-5 border-0">
           <ProfileSnippet />
-          <ProjectSnippet />
+          <AboutMeSummary />
           <Emoji />
           <ButtonViewProject />
         </Card>
