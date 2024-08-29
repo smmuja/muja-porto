@@ -1,23 +1,13 @@
-import {
-  SkillFramework,
-  SkillMiscellaneous,
-  SkillProgrammming,
-  SkillTool,
-  SoftSkill,
-  Wrapper,
-} from "components";
-import { SectionTitle } from "layouts";
+import { Wrapper } from "components/base";
+import { Skills } from "components/features/skill";
+import { SectionTitle } from "layouts/default-layouts/components";
 
 export function SkillWrapper() {
   return (
     <>
       <SectionTitle title={"# Skills and Tools"} />
       <Wrapper>
-        <SkillProgrammming />
-        <SkillFramework />
-        <SkillTool />
-        <SkillMiscellaneous />
-        <SoftSkill />
+        <Skills />
       </Wrapper>
     </>
   );
