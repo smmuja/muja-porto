@@ -1,5 +1,6 @@
-import { ContactDetail, Wrapper } from "components";
-import { SectionTitle } from "layouts";
+import { Wrapper } from "components/base";
+import { ContactDetail } from "components/features/contact";
+import { SectionTitle } from "layouts/default-layouts/components";
 
 export function ContactWrapper() {
   return (
