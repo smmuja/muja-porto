@@ -1,25 +1,13 @@
-import {
-  AboutCS,
-  AboutFE,
-  AboutFSSE,
-  AboutFocus,
-  AboutSE,
-  AboutSEO,
-  Wrapper,
-} from "components";
-import { SectionTitle } from "layouts";
+import { Wrapper } from "components/base";
+import { Abouts } from "components/features/about";
+import { SectionTitle } from "layouts/default-layouts/components";
 
 export function AboutWrapper() {
   return (
     <>
       <SectionTitle title={"# About"} />
       <Wrapper>
-        <AboutSE />
-        <AboutCS />
-        <AboutSEO />
-        <AboutFSSE />
-        <AboutFE />
-        <AboutFocus />
+        <Abouts />
       </Wrapper>
     </>
   );
