@@ -1,8 +1,8 @@
 import { Button, Card, Emoji, ProfileSnippet, Wrapper } from "components/base";
 
-import userImg from "/img/user.png";
 import { useOpenRightSidebarContext } from "providers/OpenRightSidebarContext";
 import { AboutMeSummary, ButtonViewProject } from "components/features/home";
+import { profileData } from "data";
 
 export function RightSidebar() {
   const { handleCloseRightSidebar, isRightSidebarOpen } =
@@ -16,8 +16,14 @@ export function RightSidebar() {
         >
           <div className="flex justify-between">
             <div className="flex gap-3">
-              <img src={userImg} alt="" className="size-7 rounded-md" />
-              <h3 className="font-semibold m-0 text-lg">Muja Portfolio</h3>
+              <img
+                src={profileData.profile_img_url}
+                alt=""
+                className="size-7 rounded-md"
+              />
+              <h3 className="font-semibold m-0 text-lg">
+                {profileData.name} Portfolio
+              </h3>
             </div>
             <Button onClick={() => handleCloseRightSidebar()} className="m-0">
               X

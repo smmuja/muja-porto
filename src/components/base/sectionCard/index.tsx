@@ -1,6 +1,7 @@
 import userImg from "assets/img/user.png";
 import { SectionCardProps } from "./type";
 import { useOpenRightSidebarContext } from "providers/OpenRightSidebarContext";
+import { profileData } from "data";
 
 export function SectionCard(props: SectionCardProps) {
   const { children, imgUrl, title, ...rest } = props;
@@ -26,7 +27,7 @@ export function SectionCard(props: SectionCardProps) {
             onClick={handleOpenRightSidebar}
             className="font-semibold text-base mb-1 hover:cursor-pointer hover:underline"
           >
-            {title ? title : "Muja"}
+            {title ? title : `${profileData.name}`}
           </h3>
           <div {...rest}>{children}</div>
         </div>
