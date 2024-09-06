@@ -2,15 +2,14 @@ import { Card, Divider, Icon } from "components/base";
 
 import { skillsToolsData } from "data/skillsToolsData";
 
+import { profileData } from "data";
+
 export function AboutMeSummary() {
   return (
     <Card className="flex border-none m-0 p-0 lg:w-5/6">
       <Divider />
       <div>
-        <p>
-          Aspiring Software Engineer with background in Product and Digital
-          Marketing
-        </p>
+        <p>{profileData.about_summary}</p>
         <br />
         <div className="grid grid-cols-12 gap-1 lg:block lg:w-5/6">
           {skillsToolsData
@@ -27,11 +26,7 @@ export function AboutMeSummary() {
             ))}
         </div>
         <br />
-        <p>
-          I am particularly interested in the Front End development to bridge
-          between business's missions and customers' expectations and am eager
-          to contribute to this field.
-        </p>
+        <p>{profileData.closing_statement}</p>
         <br />
         <p>View my Project section to learn more 🌟 🌟</p>
       </div>
