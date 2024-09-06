@@ -40,7 +40,7 @@ export function Projects() {
               {data.project_website_name}
             </a>
 
-            <div className="bg-slate-100 rounded-lg px-3 p-0 py-2 ">
+            <div className="bg-slate-100 rounded-lg px-3 p-0 py-2 sm:max-w-lg ">
               <div
                 onClick={() => handleAccordion(data.project_id)}
                 className="font-semibold text-slate-800 text-base flex justify-between items-center hover:cursor-pointer hover:text-slate-600 "
