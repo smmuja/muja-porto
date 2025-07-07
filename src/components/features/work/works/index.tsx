@@ -3,9 +3,11 @@ import { Icon, ImageModal, SectionCard } from "components/base";
 import { workData } from "data";
 
 export function Works() {
+  const workDataSort = workData.sort((a, b) => b.work_id - a.work_id);
+
   return (
     <>
-      {workData.map((data) => (
+      {workDataSort.map((data) => (
         <>
           <SectionCard key={data.work_id}>
             {data.work_icon.map((workIcon) => (
