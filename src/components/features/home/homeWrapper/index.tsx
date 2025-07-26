@@ -1,5 +1,9 @@
 import { Emoji, Wrapper, ProfileSnippet, Card } from "components/base";
-import { AboutMeSummary, ButtonViewProject } from "components/features/home";
+import {
+  AboutMeSummary,
+  ButtonViewMyService,
+  ButtonViewProject,
+} from "components/features/home";
 import { SectionTitle } from "layouts/default-layouts/components";
 import { profileData } from "data";
 
@@ -15,7 +19,10 @@ export function HomeWrapper() {
           <ProfileSnippet />
           <AboutMeSummary />
           <Emoji />
-          <ButtonViewProject />
+          <Card className="flex gap-3 border-none">
+            <ButtonViewProject />
+            <ButtonViewMyService />
+          </Card>
         </Card>
       </Wrapper>
     </>
