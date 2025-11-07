@@ -17,7 +17,7 @@ export function AboutMeSummary() {
               data.skill_item
                 .filter((item) => item.skill_icon_url !== null)
                 .map((item) => ({
-                  id: item.skill_item_id,
+                  id: `${data.skill_id}-${item.skill_item_id}`,
                   url: item.skill_icon_url,
                 }))
             )
