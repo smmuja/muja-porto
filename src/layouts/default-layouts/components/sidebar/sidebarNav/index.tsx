@@ -7,14 +7,12 @@ export function SidebarNav() {
       <nav className="flex flex-row sm:flex-col py-3 gap-5 ">
         {navPath.map((item) => {
           return (
-            <>
-              <IconLink
-                key={item.title}
-                link={item.path}
-                label={item.title}
-                icon={<item.icon />}
-              />
-            </>
+            <IconLink
+              key={item.title}
+              link={item.path}
+              label={item.title}
+              icon={<item.icon />}
+            />
           );
         })}
       </nav>
