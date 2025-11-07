@@ -27,8 +27,8 @@ export function Projects() {
   return (
     <>
       {projectData.map((data) => (
-        <>
-          <SectionCard key={data.project_id}>
+        <div key={data.project_id} className="m-0 p-0">
+          <SectionCard>
             <h3 className="font-semibold text-lg text-slate-700">
               {data.project_name}
             </h3>
@@ -116,7 +116,7 @@ export function Projects() {
           </SectionCard>
           {/* hide divider on the last child element  */}
           {data.project_id < projectData.length - 1 && <Divider />}
-        </>
+        </div>
       ))}
     </>
   );
