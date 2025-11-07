@@ -5,3 +5,4 @@ export * from "./skillsToolsData";
 export * from "./contactData";
 export * from "./aboutData";
 export * from "./profileData";
+export * from "./servicesData";
