@@ -6,3 +6,4 @@ export * from "./skill";
 export * from "./education";
 export * from "./contact";
 export * from "./project";
+export * from "./services";

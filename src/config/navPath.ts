@@ -7,6 +7,7 @@ import {
   IconSchool,
   IconTool,
   IconUser,
+  IconBrush,
 } from "@tabler/icons-react";
 import {
   aboutUrl,
@@ -15,6 +16,7 @@ import {
   homeUrl,
   projectUrl,
   resumeUrl,
+  serviceUrl,
   skillUrl,
   workUrl,
 } from "config";
@@ -54,6 +56,11 @@ export const navPath = [
     title: "Contact",
     path: contactUrl,
     icon: IconMail,
+  },
+  {
+    title: "Service",
+    path: serviceUrl,
+    icon: IconBrush,
   },
   {
     title: "CV/Resume",

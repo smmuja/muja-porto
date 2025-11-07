@@ -5,4 +5,5 @@ export * from "./work";
 export * from "./project";
 export * from "./skill";
 export * from "./contact";
+export * from "./services";
 export * from "./404";
