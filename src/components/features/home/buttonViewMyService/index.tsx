@@ -1,9 +1,11 @@
 import { Button } from "components/base";
+import { useNavigate } from "react-router-dom";
 
 export function ButtonViewMyService() {
-  const projectButtonHandler = () => {
-    window.open("https://www.webdevcustom.com", "_blank");
+  const navigate = useNavigate();
+  const serviceButtonHandler = () => {
+    navigate("/service");
   };
 
-  return <Button onClick={projectButtonHandler}>View My Service</Button>;
+  return <Button onClick={serviceButtonHandler}>View My Service</Button>;
 }

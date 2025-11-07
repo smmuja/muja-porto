@@ -15,7 +15,7 @@ export const aboutData = [
     about_id: 1,
     about_tag: "SE",
     about_content:
-      "An aspiring Software Engineer with background in Product and Digital Marketing",
+      "Software Engineer with background in Product and Digital Marketing",
     illustration_img_url: null,
   },
   {
