@@ -14,6 +14,41 @@ export const projectData = [
   },
   {
     project_id: 2,
+    project_name: "Meownly Talk",
+    project_overview:
+      "Mock interview & consultation platform for fresh graduates and young professionals",
+    project_background:
+      "Many job seekers struggle to gain interview confidence and feedback due to limited real-world exposure and guidance.",
+    project_solution:
+      "Developed a platform that connects users with professionals for simulated interviews and career consultations, enabling them to improve communication, confidence, and job readiness.",
+    project_output:
+      "Launched a bilingual career consultation platform at meownly.com with seamless session booking and feedback features.",
+    project_techstack:
+      "NextJS, TypeScript, TailwindCSS, Next Internationalization (i18n)",
+    project_website_name: "meownly.com",
+    project_linkdeploy: "https://meownly.com/",
+    project_github_sourcecode: "",
+    project_image_url: "/img/projects/meownly-talk.png",
+  },
+  {
+    project_id: 3,
+    project_name: "Hiring Platform",
+    project_overview:
+      "A multi-role recruitment platform that allows recruiters to manage job postings and candidates to apply seamlessly with an interactive webcam capture feature using hand gesture detection.",
+    project_background:
+      "Traditional recruitment portals often lack engaging features and seamless communication between recruiters and applicants.",
+    project_solution:
+      "Built a platform enabling recruiters to post and manage job openings while candidates can apply directly using webcam-based gesture capture, creating a more interactive and humanized application experience.",
+    project_output:
+      "Deployed a fully functional hiring platform supporting multi-role access, real-time candidate submissions, and gesture-based application features.",
+    project_techstack: "NextJS, TypeScript, TailwindCSS, React Webcam",
+    project_website_name: "hiring-platform.smmuja.com",
+    project_linkdeploy: "https://hiring-platform.smmuja.com",
+    project_github_sourcecode: "https://github.com/smmuja/hiring-platform",
+    project_image_url: "/img/projects/hiring-platform.png",
+  },
+  {
+    project_id: 4,
     project_name: "Dashboard ChartJS",
     project_overview: "Dashboard for visualizing data using Chart.js",
     project_background: "Need for simple analytics display",
@@ -26,7 +61,7 @@ export const projectData = [
     project_image_url: "/img/projects/dashboard-chart.png",
   },
   {
-    project_id: 3,
+    project_id: 5,
     project_name: "Invenflow UI",
     project_overview: "Frontend for inventory management system",
     project_background:
@@ -40,7 +75,7 @@ export const projectData = [
     project_image_url: "/img/projects/invenflow-ui.png",
   },
   {
-    project_id: 4,
+    project_id: 6,
     project_name: "Invenflow API",
     project_overview: "Backend API for inventory management system",
     project_background: "Manage inventory data using Node and MongoDB",
@@ -53,7 +88,7 @@ export const projectData = [
     project_image_url: "/img/projects/invenflow-api.png",
   },
   {
-    project_id: 5,
+    project_id: 7,
     project_name: "Imagi OpenCV App",
     project_overview: "Web app using OpenCV for image processing",
     project_background: "Showcase OpenCV.js in a modern frontend",
@@ -66,7 +101,7 @@ export const projectData = [
     project_image_url: "/img/projects/imagi-opencv.png",
   },
   {
-    project_id: 6,
+    project_id: 8,
     project_name: "Zenzone Mental Health App",
     project_overview: "Mental health support app with journal & activities",
     project_background: "Promote well-being through digital tools",
@@ -79,7 +114,7 @@ export const projectData = [
     project_image_url: "/img/projects/zenzone.png",
   },
   {
-    project_id: 7,
+    project_id: 9,
     project_name: "Pandooin Clone",
     project_overview: "Clone of Pandooin landing page",
     project_background: "Recreate UI/UX of modern SaaS homepage",
@@ -92,7 +127,7 @@ export const projectData = [
     project_image_url: "/img/projects/pandooin.png",
   },
   {
-    project_id: 8,
+    project_id: 10,
     project_name: "Pokemon App",
     project_overview: " Interactive Pokemon App from pokeapi.co",
     project_background:
@@ -108,7 +143,7 @@ export const projectData = [
     project_image_url: "/img/projects/pokemon.png",
   },
   {
-    project_id: 9,
+    project_id: 11,
     project_name: "InovHub",
     project_overview:
       "Social media app for enterpreneurs, investors, and customers",
@@ -126,7 +161,7 @@ export const projectData = [
     project_image_url: "/img/projects/inovhub.png",
   },
   {
-    project_id: 10,
+    project_id: 12,
     project_name: "News App",
     project_overview: "News web app to fetch news from NewsAPI",
     project_background:
@@ -144,7 +179,7 @@ export const projectData = [
     project_image_url: "/img/projects/newsapp.png",
   },
   {
-    project_id: 11,
+    project_id: 13,
     project_name: "Dear Deadliner Web Blog",
     project_overview:
       "Web blog targetting young adults providing motivations about life after college",
