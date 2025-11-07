@@ -5,4 +5,5 @@ export const workUrl = "/work";
 export const projectUrl = "/project";
 export const skillUrl = "/skill";
 export const contactUrl = "/contact";
+export const serviceUrl = "/service";
 export const resumeUrl = "/resume";

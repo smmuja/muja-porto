@@ -7,6 +7,7 @@ import {
   EducationPage,
   ContactPage,
   ProjectPage,
+  ServicePage,
   Error404Page,
 } from "pages";
 import { MainLayout, RightSidebarLayout } from "layouts/default-layouts";
@@ -16,6 +17,7 @@ import {
   educationUrl,
   homeUrl,
   projectUrl,
+  serviceUrl,
   skillUrl,
   workUrl,
 } from "config";
@@ -52,6 +54,10 @@ export const routes = createBrowserRouter([
       {
         path: contactUrl,
         Component: ContactPage,
+      },
+      {
+        path: serviceUrl,
+        Component: ServicePage,
       },
       {
         path: projectUrl,
