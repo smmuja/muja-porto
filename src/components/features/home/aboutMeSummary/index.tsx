@@ -28,7 +28,7 @@ export function AboutMeSummary() {
         <br />
         <p>{profileData.closing_statement}</p>
         <br />
-        <p>View my Project section to learn more 🌟 🌟</p>
+        <p>View projects and services to learn more 🌟 🌟</p>
       </div>
     </Card>
   );

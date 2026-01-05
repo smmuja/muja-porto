@@ -3,10 +3,10 @@ import { userImg } from "assets/img";
 export const profileData = {
   name: "Muja",
   role: "Software Engineer",
-  tagline: "Build something beautiful that functions.",
+  tagline: "Building scalable systems and enabling developers.",
   about_summary:
-    "Software Engineer with background in Product and Digital Marketing",
+    "Software Engineer with strong ownership in system architecture, technical decision-making, and team enablement.",
   closing_statement:
-    "I am particularly interested in the Front End development to bridge between business's missions and customers' expectations.",
+    "I design and build maintainable systems while mentoring developers through clear architecture, documentation, and thoughtful technical guidance—aligning business goals with reliable, scalable software.",
   profile_img_url: userImg,
 };
