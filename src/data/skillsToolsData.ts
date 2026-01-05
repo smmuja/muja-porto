@@ -69,6 +69,11 @@ export const skillsToolsData = [
         skill_item_name: "TailwindCSS",
         skill_icon_url: "/logo/skills/frontend/tailwindcss.png",
       },
+      {
+        skill_item_id: 7,
+        skill_item_name: "Streamlit",
+        skill_icon_url: "/logo/skills/frontend/streamlit.png",
+      }, // added
     ],
   },
   {
@@ -95,17 +100,28 @@ export const skillsToolsData = [
         skill_item_name: "Postman",
         skill_icon_url: "/logo/skills/backend/postman.png",
       },
+      {
+        skill_item_id: 5,
+        skill_item_name: "ExpressJS",
+        skill_icon_url: "/logo/skills/backend/expressjs.png",
+      }, // added
+      {
+        skill_item_id: 6,
+        skill_item_name: "FastAPI",
+        skill_icon_url: "/logo/skills/backend/fastapi.png",
+      }, // added
+      {
+        skill_item_id: 7,
+        skill_item_name: "NestJS",
+        skill_icon_url: "/logo/skills/backend/nestjs.png",
+      }, // added
     ],
   },
   {
     skill_id: 4,
     skill_type: "Tools",
     skill_item: [
-      {
-        skill_item_id: 1,
-        skill_item_name: "Git",
-        skill_icon_url: null,
-      },
+      { skill_item_id: 1, skill_item_name: "Git", skill_icon_url: null },
       {
         skill_item_id: 2,
         skill_item_name: "GitHub",
@@ -121,6 +137,21 @@ export const skillsToolsData = [
         skill_item_name: "VSCode",
         skill_icon_url: "/logo/skills/tools/vscode.png",
       },
+      {
+        skill_item_id: 5,
+        skill_item_name: "Cursor",
+        skill_icon_url: "/logo/skills/tools/cursor.png",
+      }, // added
+      {
+        skill_item_id: 6,
+        skill_item_name: "GitLab",
+        skill_icon_url: "/logo/skills/tools/gitlab.png",
+      }, // added
+      {
+        skill_item_id: 7,
+        skill_item_name: "Jira",
+        skill_icon_url: "/logo/skills/tools/jira.png",
+      }, // added
     ],
   },
   {
@@ -142,6 +173,21 @@ export const skillsToolsData = [
         skill_item_name: "Supabase",
         skill_icon_url: "/logo/skills/database/supabase.png",
       },
+      {
+        skill_item_id: 4,
+        skill_item_name: "Firebase",
+        skill_icon_url: "/logo/skills/database/firebase.png",
+      }, // added
+      {
+        skill_item_id: 5,
+        skill_item_name: "Firestore",
+        skill_icon_url: "/logo/skills/database/firestore.png",
+      }, // added
+      {
+        skill_item_id: 6,
+        skill_item_name: "MariaDB",
+        skill_icon_url: "/logo/skills/database/mariadb.png",
+      }, // added
     ],
   },
   {
@@ -222,18 +268,23 @@ export const skillsToolsData = [
     skill_item: [
       {
         skill_item_id: 1,
-        skill_item_name: "Communication",
-        skill_icon_url: null,
+        skill_item_name: "Technical Decission Making",
+        skill_icon_url: "/logo/skills/softskills/decision.png",
       },
       {
         skill_item_id: 2,
-        skill_item_name: "Customer Interaction",
-        skill_icon_url: "/logo/skills/softskills/customer.png",
+        skill_item_name: "Mentorship",
+        skill_icon_url: "/logo/skills/softskills/mentorship.png",
       },
       {
         skill_item_id: 3,
         skill_item_name: "Cross-team Collaboration",
         skill_icon_url: "/logo/skills/softskills/collaboration.png",
+      },
+      {
+        skill_item_id: 4,
+        skill_item_name: "Stakeholder Communication",
+        skill_icon_url: "/logo/skills/softskills/communication.png",
       },
     ],
   },
