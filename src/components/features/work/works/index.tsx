@@ -23,6 +23,7 @@ export function Works() {
               <Icon
                 key={workIcon.work_icon_id}
                 imgSrc={workIcon.work_icon_url}
+                tooltip={workIcon.work_icon_name}
               />
             ))}
 
