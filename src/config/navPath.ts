@@ -1,13 +1,13 @@
 import {
-  IconAirBalloon,
-  IconDeviceDesktop,
+  IconBriefcase,
   IconHome,
   IconMail,
   IconReport,
   IconSchool,
   IconTool,
   IconUser,
-  IconBrush,
+  IconHandClick,
+  IconChecklist,
 } from "@tabler/icons-react";
 import {
   aboutUrl,
@@ -33,19 +33,21 @@ export const navPath = [
     icon: IconUser,
   },
   {
-    title: "Education",
-    path: educationUrl,
-    icon: IconSchool,
+    title: "Service",
+    path: serviceUrl,
+    icon: IconHandClick,
   },
+
   {
     title: "Working Experiences",
     path: workUrl,
-    icon: IconDeviceDesktop,
+    icon: IconBriefcase,
   },
+
   {
     title: "Project Experiences",
     path: projectUrl,
-    icon: IconAirBalloon,
+    icon: IconChecklist,
   },
   {
     title: "Skills and Tools",
@@ -53,15 +55,16 @@ export const navPath = [
     icon: IconTool,
   },
   {
+    title: "Education",
+    path: educationUrl,
+    icon: IconSchool,
+  },
+  {
     title: "Contact",
     path: contactUrl,
     icon: IconMail,
   },
-  {
-    title: "Service",
-    path: serviceUrl,
-    icon: IconBrush,
-  },
+
   {
     title: "CV/Resume",
     path: resumeUrl,

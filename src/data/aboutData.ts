@@ -24,7 +24,7 @@ export const aboutData = [
     about_id: 2,
     about_tag: "CS",
     about_content:
-      "I worked as a Customer Support engineer at a web hosting company for nearly 2 years, gaining hands-on experience in website development, deployment, domains 🌎, Linux 🐧, and cPanel 🟠.",
+      "I worked as a Senior Customer Success at a web hosting company for nearly 2 years, gaining hands-on experience in website development, deployment, domains 🌎, Linux 🐧, and cPanel 🟠.",
     illustration_img_url: null,
   },
   {
