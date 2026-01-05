@@ -23,6 +23,7 @@ export function Skills() {
                     <Icon
                       key={item.skill_item_id}
                       imgSrc={item.skill_icon_url as string}
+                      tooltip={item.skill_item_name}
                     />
                   ))}
               </div>

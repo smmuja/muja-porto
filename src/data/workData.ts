@@ -4,12 +4,12 @@ export const workData = [
     work_icon: [
       {
         work_icon_id: 1,
-        work_icon_name: "niagahoster.png",
+        work_icon_name: "Niagahoster",
         work_icon_url: "/logo/work/niagahoster.png",
       },
       {
         work_icon_id: 2,
-        work_icon_name: "hostinger.png",
+        work_icon_name: "Hostinger",
         work_icon_url: "/logo/work/hostinger.png",
       },
     ],
@@ -32,7 +32,7 @@ export const workData = [
     work_icon: [
       {
         work_icon_id: 1,
-        work_icon_name: "revou.png",
+        work_icon_name: "RevoU",
         work_icon_url: "/logo/work/revou.png",
       },
     ],
@@ -53,7 +53,7 @@ export const workData = [
     work_icon: [
       {
         work_icon_id: 1,
-        work_icon_name: "imperial.png",
+        work_icon_name: "Imperial Healthtech",
         work_icon_url: "/logo/work/imperial.png",
       },
     ],

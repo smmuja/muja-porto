@@ -9,7 +9,10 @@ export function Educations() {
         <>
           <SectionCard key={data.education_id}>
             <>
-              <Icon imgSrc={data.education_institution_logo} />
+              <Icon
+                imgSrc={data.education_institution_logo}
+                tooltip={data.education_name}
+              />
               <h3>
                 <b>{data.education_name}</b>
               </h3>
