@@ -1,22 +1,9 @@
 export const projectData = [
   {
     project_id: 1,
-    project_name: "Portfolio Slack Design",
-    project_overview: "Portfolio site styled like Slack interface",
-    project_background: "Showcase projects in a familiar UI",
-    project_solution: "Use Slack-like layout to present developer portfolio",
-    project_output: "Interactive portfolio at dev.smmuja.com",
-    project_techstack: "ReactJS, TypeScript, TailwindCSS",
-    project_website_name: "dev.smmuja.com",
-    project_linkdeploy: "https://dev.smmuja.com/",
-    project_github_sourcecode: "https://github.com/smmuja/muja-porto",
-    project_image_url: "/img/projects/portfolio-slack.png",
-  },
-  {
-    project_id: 2,
-    project_name: "Meownly Talk",
+    project_name: "Meownly Career",
     project_overview:
-      "Mock interview & consultation platform for fresh graduates and young professionals",
+      "CV Generator & consultation platform for fresh graduates and young professionals",
     project_background:
       "Many job seekers struggle to gain interview confidence and feedback due to limited real-world exposure and guidance.",
     project_solution:
@@ -31,7 +18,7 @@ export const projectData = [
     project_image_url: "/img/projects/meownly-talk.png",
   },
   {
-    project_id: 3,
+    project_id: 2,
     project_name: "Hiring Platform",
     project_overview:
       "A multi-role recruitment platform that allows recruiters to manage job postings and candidates to apply seamlessly with an interactive webcam capture feature using hand gesture detection.",
@@ -46,6 +33,19 @@ export const projectData = [
     project_linkdeploy: "https://hiring-platform.smmuja.com",
     project_github_sourcecode: "https://github.com/smmuja/hiring-platform",
     project_image_url: "/img/projects/hiring-platform.png",
+  },
+  {
+    project_id: 3,
+    project_name: "Portfolio Slack Design",
+    project_overview: "Portfolio site styled like Slack interface",
+    project_background: "Showcase projects in a familiar UI",
+    project_solution: "Use Slack-like layout to present developer portfolio",
+    project_output: "Interactive portfolio at dev.smmuja.com",
+    project_techstack: "ReactJS, TypeScript, TailwindCSS",
+    project_website_name: "dev.smmuja.com",
+    project_linkdeploy: "https://dev.smmuja.com/",
+    project_github_sourcecode: "https://github.com/smmuja/muja-porto",
+    project_image_url: "/img/projects/portfolio-slack.png",
   },
   {
     project_id: 4,
