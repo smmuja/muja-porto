@@ -60,7 +60,7 @@ export const aboutData = [
     about_id: 7,
     about_tag: "Focus",
     about_content:
-      "Today, I focus on translating business intent into well-structured, reliable software systems teams can confidently evolve.",
+      "Currently, I focus on translating business intent into well-structured, reliable software systems teams can confidently evolve.",
     illustration_img_url: null,
   },
 ];
