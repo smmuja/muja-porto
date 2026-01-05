@@ -19,10 +19,15 @@ export function AboutMeSummary() {
                 .map((item) => ({
                   id: `${data.skill_id}-${item.skill_item_id}`,
                   url: item.skill_icon_url,
+                  tooltip: item.skill_item_name,
                 }))
             )
             .map((icon) => (
-              <Icon key={icon.id} imgSrc={icon.url as string} />
+              <Icon
+                key={icon.id}
+                imgSrc={icon.url as string}
+                tooltip={icon.tooltip}
+              />
             ))}
         </div>
         <br />
