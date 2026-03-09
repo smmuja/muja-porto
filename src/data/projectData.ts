@@ -15,7 +15,7 @@ export const projectData = [
     project_website_name: "meownly.com",
     project_linkdeploy: "https://meownly.com/",
     project_github_sourcecode: "",
-    project_image_url: "/img/projects/meownly-talk.png",
+    project_image_url: "/img/projects/meownly-career.png",
   },
   {
     project_id: 2,
