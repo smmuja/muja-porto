@@ -1,5 +1,6 @@
 export const personSchemaData = {
   name: "Muja S",
+  alternateName: "Siti Muja",
   description:
     "Software Engineer with strong ownership in system architecture, technical decision-making, and team enablement. Founder and Lead Engineer at Webdev Custom, specializing in custom web and full stack software development.",
   currentRole: "Founder and Lead Engineer",
@@ -25,15 +26,15 @@ export const personSchemaData = {
       institution: "Universitas Sebelas Maret",
       alternateName: "UNS",
       subject: "Bachelor of English Literature",
-      start: "2017",
-      end: "2021",
+      start: "2017-08-01",
+      end: "2021-08-18",
       url: "https://uns.ac.id",
     },
     {
       institution: "RevoU",
       subject: "Full Stack Software Engineering",
-      start: "2023",
-      end: "2024",
+      start: "2023-10-02",
+      end: "2024-10-08",
       url: "https://revou.co",
     },
   ],

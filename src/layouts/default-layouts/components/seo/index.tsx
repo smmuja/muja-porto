@@ -12,6 +12,7 @@ export function Seo({ title, description }: SeoProps) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: personSchemaData.name,
+    alternateName: personSchemaData.alternateName,
     description: personSchemaData.description,
     url: personSchemaData.url,
     jobTitle: personSchemaData.currentRole,
@@ -20,18 +21,25 @@ export function Seo({ title, description }: SeoProps) {
       name: personSchemaData.currentCompany.name,
       url: personSchemaData.currentCompany.url,
     },
+
     alumniOf: personSchemaData.education.map((edu) => ({
-      "@type": "EducationalOrganization",
-      name: edu.institution,
-      alternateName: edu?.alternateName || "",
-      url: edu.url,
-      knowsAbout: edu.subject,
+      "@type": "OrganizationRole",
       startDate: edu.start,
       endDate: edu.end,
+      alumniOf: {
+        "@type": "EducationalOrganization",
+        name: edu.institution,
+        url: edu.url,
+        ...(edu.alternateName && { alternateName: edu.alternateName }),
+        knowsAbout: edu.subject,
+      },
     })),
 
-    sameAs: personSchemaData.socials.linkedin,
-    ...personSchemaData.currentCompany.teamUrls,
+    sameAs: [
+      personSchemaData.socials.linkedin,
+      personSchemaData.socials.portfolio,
+      ...personSchemaData.currentCompany.teamUrls,
+    ].filter(Boolean),
   };
 
   return (
