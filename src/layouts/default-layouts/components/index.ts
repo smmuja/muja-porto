@@ -6,3 +6,4 @@ export * from "./portfolioTitle";
 export * from "./sectionTitle";
 export * from "./rightSidebar";
 export * from "./bottomNav";
+export * from "./seo";
