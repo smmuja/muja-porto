@@ -2,8 +2,8 @@ export const contactData = [
   {
     contact_id: 1,
     socmed_name: "Gmail",
-    contact_username: "***REMOVED***",
-    contact_url: "mailto:***REMOVED***",
+    contact_username: "dev@smmuja.com",
+    contact_url: "mailto:dev@smmuja.com",
     contact_icon_url: "/logo/contact/gmail.png",
   },
   {
