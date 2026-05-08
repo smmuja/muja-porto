@@ -1,6 +1,7 @@
 import { Emoji, Icon, ImageModal, SectionCard } from "components/base";
 import { workData } from "data";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export function Works() {
   const [openItems, setOpenItems] = useState<number[]>([]);
@@ -27,9 +28,23 @@ export function Works() {
               />
             ))}
 
-            <h3 className="font-semibold text-lg text-slate-700">
-              {data.work_company}
-            </h3>
+            {/* Company name */}
+            {data.work_url ? (
+              <Link
+                to={data.work_url}
+                target="_blank"
+                className="hover:underline"
+              >
+                <h3 className="font-semibold text-lg text-slate-700">
+                  {data.work_company}
+                </h3>
+              </Link>
+            ) : (
+              <h3 className="font-semibold text-lg text-slate-700">
+                {data.work_company}
+              </h3>
+            )}
+
             <p className="italic font-semibold text-slate-800">
               {data.work_title}
             </p>

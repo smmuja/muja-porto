@@ -2,9 +2,11 @@ export const educationData = [
   {
     education_id: 1,
     education_name: "RevoU",
+    education_alternate_name: "",
+    education_url: "https://revou.co",
     education_city: "",
     education_start_date: "Oct 2023",
-    education_end_date: "Jun 2024",
+    education_end_date: "Oct 2024",
     education_subject_degree: "Full Stack Software Engineering",
     education_final_grade: "89/100",
     education_institution_logo: "/logo/revou.png",
@@ -15,6 +17,8 @@ export const educationData = [
   {
     education_id: 2,
     education_name: "Universitas Sebelas Maret",
+    education_alternate_name: "UNS",
+    education_url: "https://uns.ac.id",
     education_city: "Surakarta",
     education_start_date: "Aug 2017",
     education_end_date: "Aug 2021",

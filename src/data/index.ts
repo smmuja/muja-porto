@@ -6,3 +6,4 @@ export * from "./contactData";
 export * from "./aboutData";
 export * from "./profileData";
 export * from "./servicesData";
+export * from "./personSchemaData";

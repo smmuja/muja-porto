@@ -1,6 +1,7 @@
 import { Emoji, Icon, ImageModal, SectionCard } from "components/base";
 
 import { educationData } from "data";
+import { Link } from "react-router-dom";
 
 export function Educations() {
   return (
@@ -14,7 +15,9 @@ export function Educations() {
                 tooltip={data.education_name}
               />
               <h3>
-                <b>{data.education_name}</b>
+                <Link to={data.education_url}>
+                  <b>{data.education_name}</b>
+                </Link>
               </h3>
               <span>
                 {data.education_start_date} - {data.education_end_date}
