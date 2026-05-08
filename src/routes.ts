@@ -38,30 +38,37 @@ export const routes = createBrowserRouter([
       {
         path: aboutUrl,
         Component: AboutPage,
+        handle: { title: "About" },
       },
       {
         path: educationUrl,
         Component: EducationPage,
+        handle: { title: "Education" },
       },
       {
         path: workUrl,
         Component: WorkPage,
+        handle: { title: "Working Experiences" },
       },
       {
         path: skillUrl,
         Component: SkillPage,
+        handle: { title: "Skills and Tools" },
       },
       {
         path: contactUrl,
         Component: ContactPage,
+        handle: { title: "Contact" },
       },
       {
         path: serviceUrl,
         Component: ServicePage,
+        handle: { title: "Services" },
       },
       {
         path: projectUrl,
         Component: ProjectPage,
+        handle: { title: "Projects" },
       },
       {
         path: "*",

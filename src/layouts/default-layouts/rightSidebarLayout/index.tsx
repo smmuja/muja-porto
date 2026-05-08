@@ -5,11 +5,31 @@ import {
   RightSidebar,
   SidebarWrapper,
 } from "layouts/default-layouts";
-import { Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { Outlet, UIMatch, useMatches } from "react-router-dom";
+
+// Define the exact shape of route handle
+interface RouteHandle {
+  title: string;
+}
 
 export function RightSidebarLayout() {
+  // Pass the type to useMatches so every match is strictly typed
+  const matches = useMatches() as UIMatch<unknown, RouteHandle>[];
+
+  // Get title from the active route's handle
+  const currentMatch = matches.find((m) => m.handle?.title);
+  const pageTitle = currentMatch?.handle?.title || "Portfolio";
+
   return (
     <div className="flex flex-col border-0 ">
+      <Helmet>
+        <title>{`${pageTitle} - Muja S | Software Engineering Portfolio`}</title>
+        <meta
+          name="description"
+          content={`Welcome to my software engineering portfolio! Explore my ${pageTitle.toLowerCase()} in web development and software engineering.`}
+        />
+      </Helmet>
       <HeaderWrapper />
       <div className="flex border-0">
         <SidebarWrapper />

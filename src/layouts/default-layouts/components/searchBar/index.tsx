@@ -18,10 +18,6 @@ export function SearchBar() {
 
   const [result, setResult] = useState<ResultProps[]>([]);
 
-  console.log(
-    navPath.filter((item) => item.title.toLowerCase().includes("query"))
-  );
-
   const searchHandler = () => {
     setSearch((prev) => !prev);
   };
@@ -33,8 +29,6 @@ export function SearchBar() {
       item.title.toLowerCase().includes(query.toLowerCase())
     );
   });
-
-  console.log(results);
 
   const handleChange = (query: string) => {
     setQuery(query);
