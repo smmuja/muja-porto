@@ -9,7 +9,7 @@ export function MainLayout() {
     <>
       <Seo
         title={pageTitle}
-        description="Welcome to my software engineering portfolio! Explore my projects, skills, and experience in web development and software engineering."
+        // description="Welcome to my software engineering portfolio! Explore my projects, skills, and experience in web development and software engineering."
       />
       <div className="flex flex-col border-0 ">
         <HeaderWrapper />

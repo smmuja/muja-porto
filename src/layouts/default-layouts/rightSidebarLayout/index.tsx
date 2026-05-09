@@ -25,7 +25,7 @@ export function RightSidebarLayout() {
     <>
       <Seo
         title={`${pageTitle} - Muja S | Software Engineering Portfolio`}
-        description={`Welcome to my software engineering portfolio! Explore my ${pageTitle.toLowerCase()} in web development and software engineering.`}
+        // description={`Welcome to my software engineering portfolio! Explore my ${pageTitle.toLowerCase()} in web development and software engineering.`}
       />
       <div className="flex flex-col border-0 ">
         <HeaderWrapper />
