@@ -1,6 +1,8 @@
 export const boldTerms = [
   "Software Engineer",
-  "Product and Digital Marketing",
+  "SEO",
+  "Product",
+  "Digital Marketing",
   "System Architecture",
   "Mentoring Developers",
   "Revou Full Stack Software Engineering",
@@ -17,7 +19,7 @@ export const aboutData = [
     about_id: 1,
     about_tag: "SE",
     about_content:
-      "Software Engineer with a background in Product and Digital Marketing, bringing strong business context into technical decisions.",
+      "Software Engineer with a background in SEO, Product and Digital Marketing, bringing strong business context into technical decisions.",
     illustration_img_url: null,
   },
   {
@@ -45,7 +47,7 @@ export const aboutData = [
     about_id: 5,
     about_tag: "FE",
     about_content:
-      "Starting from the fundamentals—HTML, CSS, and JavaScript—I progressed into modern frontend frameworks like ReactJS and NextJS, building real-world applications within six months.",
+      "Starting from the fundamentals (HTML, CSS, and JavaScript), I progressed into modern frontend frameworks like ReactJS and NextJS, building real-world applications within six months.",
     illustration_img_url:
       "https://media.giphy.com/media/Nm8ZPAGOwZUQM/giphy.gif?cid=ecf05e47dgdyaqfb9vmujwfyq7zwzb0quicpdvcmy8zg29qg&ep=v1_gifs_related&rid=giphy.gif&ct=g",
   },
@@ -53,7 +55,7 @@ export const aboutData = [
     about_id: 6,
     about_tag: "Growth",
     about_content:
-      "As my experience grew, I took ownership beyond implementation—designing system structures, making technical decisions, and mentoring other developers through clear architecture and documentation.",
+      "As my experience grew, I took ownership beyond implementation. Designing system structures, making technical decisions, and mentoring other developers through clear architecture and documentation.",
     illustration_img_url: null,
   },
   {
