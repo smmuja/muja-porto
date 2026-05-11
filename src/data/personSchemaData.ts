@@ -1,6 +1,6 @@
 export const personSchemaData = {
   name: "Muja S",
-  alternateName: "Siti Muja",
+  alternateName: ["Siti Muja", "Muja"],
   description:
     "Software Engineer with strong ownership in system architecture, technical decision-making, and team enablement. Founder and Lead Engineer at Webdev Custom, specializing in custom web and full stack software development.",
   currentRole: "Founder and Lead Engineer",

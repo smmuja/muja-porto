@@ -7,6 +7,6 @@ export const profileData = {
   about_summary:
     "Software Engineer with strong ownership in system architecture, technical decision-making, and team enablement.",
   closing_statement:
-    "I design and build maintainable systems while mentoring developers through clear architecture, documentation, and thoughtful technical guidance—aligning business goals with reliable, scalable software.",
+    "I design and build maintainable systems while mentoring developers through clear architecture, documentation, and thoughtful technical guidance. Aligning business goals with reliable, scalable software.",
   profile_img_url: userImg,
 };

@@ -1,7 +1,7 @@
 import { Button, Card, Emoji, ProfileSnippet, Wrapper } from "components/base";
 
 import { useOpenRightSidebarContext } from "providers/OpenRightSidebarContext";
-import { AboutMeSummary, ButtonViewProject } from "components/features/home";
+import { AboutMeSummary, ButtonViewMyService } from "components/features/home";
 import { profileData } from "data";
 
 export function RightSidebar() {
@@ -34,7 +34,7 @@ export function RightSidebar() {
             <ProfileSnippet />
             <AboutMeSummary />
             <Emoji />
-            <ButtonViewProject />
+            <ButtonViewMyService />
           </Wrapper>
         </Card>
       )}
